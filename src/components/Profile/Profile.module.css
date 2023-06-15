@@ -7,6 +7,7 @@
 
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
 .description {
@@ -53,12 +54,6 @@
 }
 .stats li + li {
   border-left: 2px solid var(--light-gray-color);
-}
-.stats li:first-child {
-  border-bottom-left-radius: 5px;
-}
-.stats li:last-child {
-  border-bottom-right-radius: 5px;
 }
 
 .label {
