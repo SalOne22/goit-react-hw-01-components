@@ -3,6 +3,8 @@ import { Section } from './Section';
 import { Statistics } from './Statistics';
 import user from 'user.json';
 import data from 'data.json';
+import friends from 'friends.json';
+import { FriendList } from './FriendList';
 
 export const App = () => {
   return (
@@ -21,6 +23,9 @@ export const App = () => {
       </Section>
       <Section>
         <Statistics stats={data} />
+      </Section>
+      <Section>
+        <FriendList friends={friends} />
       </Section>
     </>
   );
